@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import WeatherDisplay from "./WeatherDisplay";
+import WeatherDisplay from "./weatherDisplay";
 const def = {temperature : 0, conditions : "Cool"}
 const App = () => {
 const[info, setInfo] = useState(def)
